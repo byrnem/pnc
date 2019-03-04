@@ -1,0 +1,41 @@
+.home-h2 {
+  color:#0075c9;
+}
+
+#slider .block p.home-text {
+  font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.section-title p {
+  font-style: normal;
+  font-family: inherit;
+}
+
+#intro .block img {
+  width:340px;
+  padding-top:80px;
+}
+
+#kassandra {
+  background-image: url('/pnc/img/Kassandra_400-1-300x300.jpg');
+  
+  /* make a square container */
+  width: 340px;
+  height: 380px;
+
+  /* fill the container, preserving aspect ratio, and cropping to fit */
+  background-size: cover;
+
+  /* center the image vertically and horizontally */
+  background-position: top center;
+
+  /* round the edges to a circle with border radius 1/2 container size */
+  border-radius: 50%;
+}
+
+.btn {
+  background-color: #00B253;
+  color:#fff;
+}
